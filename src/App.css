@@ -1,0 +1,57 @@
+.App {
+  background-color: rgb(245,245,255);
+  padding-bottom: 1rem;
+}
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+.Content {
+  background-color: white;
+  padding: 1rem 3rem;
+  border-radius: 16px;
+  max-width: 860px;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+.date-wrapper {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-wrap: nowrap;
+
+}
+.date-wrapper > div {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.Search_Button {
+  background-color: orange;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.Car_Item {
+  background-color: rgb(245,245,245);
+  padding: 10px;
+  border-radius: 16px;
+  margin: 10px;
+  box-shadow: 0  0 4px rgba(0, 0, 0, 0.15);
+}
+
+.Car_Item img {
+  border-radius: 16px;
+  overflow: hidden;
+  display: inline-block;
+}
